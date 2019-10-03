@@ -12,7 +12,7 @@ hostname=$(hostname)
 
 
 
-echo  Rechnername: $hostname
+echo  Hostname: $hostname
 echo  ____________________________
-echo  CPU Temperatur "= $Cputemp1,$Cputemp3 C°"
-echo  CPU Frequenz "= $Cpufreq1,$Cpufreq3 GHz"
+echo  CPU temperature "= $Cputemp1,$Cputemp3 C°"
+echo  CPU frequency "= $Cpufreq1,$Cpufreq3 GHz"
