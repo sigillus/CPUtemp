@@ -5,7 +5,7 @@ CPUtemp (raspbian)
  
  
  If you want to view the temp permanently in your terminal you can create an alias in your .bashrc
- 1. move the CPUtemp file to /usr/bin/ (mv CPUtemp /usr/bin)
+ 1. move the CPUtemp file to /bin/ (mv CPUtemp /bin)
  2. edit the bashrc (sudo nano ~/.bashrc)
  3. search for aliases (in nano just type CTRL + W and search for aliases)
  4. example for the alias: alias temp="watch -n 0.5 -t CPUtemp"
